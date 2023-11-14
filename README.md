@@ -25,8 +25,8 @@
 - Metode : POST
 - Contoh Body :
 {
-  "email": "johne@example.com",
-  "password": "456"
+  "email": "ilham@example.com",
+  "password": "123"
 }
 - Output : token
 
