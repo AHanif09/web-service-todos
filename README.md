@@ -3,9 +3,9 @@
 # Daftar endpoint web service todolist
 
 ## Membuat User baru 
-Endpoint : /register
--Metode : POST
--Contoh Body :
+- Endpoint : /register
+- Metode : POST
+- Contoh Body :
 {
   "nama": "Ilham",
   "username": "ilham",
@@ -15,26 +15,26 @@ Endpoint : /register
 
 
 ## Melihat User
--Endpoint : /register
--Metode : GET 
--Output : daftar user
+- Endpoint : /register
+- Metode : GET 
+- Output : daftar user
 
 
 ## Login User
--Endpoint : /auth/login
--Metode : POST
--Contoh Body :
+- Endpoint : /auth/login
+- Metode : POST
+- Contoh Body :
 {
   "email": "johne@example.com",
   "password": "456"
 }
--Output : token
+- Output : token
 
 
-##Membuat todo baru
--Endpoint : /todos
--Metode : POST
--Contoh Body :
+## Membuat todo baru
+- Endpoint : /todos
+- Metode : POST
+- Contoh Body :
 {
   "value": "makan",
   "status": false,
@@ -43,24 +43,24 @@ Endpoint : /register
 
 
 ## Melihat semua todo sesuai user id
--Endpoint : /todos
--Metode : GET
--Header : Authorization : bearer {token}
--Output : daftar todo
+- Endpoint : /todos
+- Metode : GET
+- Header : Authorization : bearer {token}
+- Output : daftar todo
 
 
 ## Melihat detail todo by id
--Endpoint : /todos/:id
--Metode : GET
--Header : Authorization : bearer {token}
--Output : todo sesuai id
+- Endpoint : /todos/:id
+- Metode : GET
+- Header : Authorization : bearer {token}
+- Output : todo sesuai id
 
 
 ## Merubah detail todo 
--Endpoint : /todos/:id
--Metode : PUT
--Header : Authorization : bearer {token}
--Contoh Body :
+- Endpoint : /todos/:id
+- Metode : PUT
+- Header : Authorization : bearer {token}
+- Contoh Body :
 {
   "value": "makan",
   "status": true,
@@ -69,15 +69,15 @@ Endpoint : /register
 
 
 ## Menghapus todo by id
--Endpoint : /todos/:id
--Metode : DELETE
--Header : Authorization : bearer {token}
+- Endpoint : /todos/:id
+- Metode : DELETE
+- Header : Authorization : bearer {token}
 
 
 ## Menghapus semua todo 
--Endpoint : /todos
--Metode : DELETE
--Header : Authorization : bearer {token}
+- Endpoint : /todos
+- Metode : DELETE
+- Header : Authorization : bearer {token}
 
 
 
