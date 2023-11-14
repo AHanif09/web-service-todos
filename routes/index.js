@@ -6,7 +6,7 @@ const todoRoute = require("./todo.route")
 const authRoute = require("./auth.route")
 
 route.get("/", (req, res) => {
-    res.json("ini dari express mongoose")
+    res.json("Selamat datang di todo web service")
 })
 
 route.use("/auth", authRoute)
