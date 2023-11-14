@@ -12,11 +12,9 @@ Contoh Body :
 }
 
 
-
 Melihat User
 Endpoint : /register
 Metode : GET 
-
 
 
 Login User
@@ -24,9 +22,10 @@ Endpoint : /auth/login
 Metode : POST
 Contoh Body :
 {
-  "email": "johne@example.com",
-  "password": "456"
+  "email": "ilham@example.com",
+  "password": "123"
 }
+
 
 Membuat todo baru
 Endpoint : /todos
@@ -39,19 +38,16 @@ Contoh Body :
 }
 
 
-
 Melihat semua todo sesuai user id
 Endpoint : /todos
 Metode : GET
 Header : Authorization : bearer {token}
 
 
-
 Melihat detail todo by id
 Endpoint : /todos/:id
 Metode : GET
 Header : Authorization : bearer {token}
-
 
 
 Merubah detail todo 
@@ -66,12 +62,10 @@ Contoh Body :
 }
 
 
-
 Menghapus todo by id
 Endpoint : /todos/:id
 Metode : DELETE
 Header : Authorization : bearer {token}
-
 
 
 Menghapus semua todo 
